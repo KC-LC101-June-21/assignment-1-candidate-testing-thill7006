@@ -23,7 +23,6 @@ candidateName = input.question("What is your name? \n \n");
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-const input = require("readline-sync");
 candidateAnswer = input.question(question + "\n");
 
 }
