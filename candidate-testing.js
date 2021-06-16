@@ -19,6 +19,7 @@ function askForName() {
   // TODO 1.1b: Ask for candidate's name //
 const input = require("readline-sync");
 candidateName = input.question("What is your name? ");
+return candidateName;
 }
 
 candidateAnswers = [];
@@ -28,6 +29,7 @@ for (let i = 0; i < questions.length; i++) {
   candidateAnswers.push(input.question(questions[i]));
   }
   console.log('\n \n')
+  return candidateAnswers;
 }
 
 function gradeQuiz(candidateAnswers) {
